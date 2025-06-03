@@ -22,15 +22,16 @@ This project showcases a modular **BDD Test Automation Framework** built with **
 ## Project Structure
 
 AgileTestAutomationFramework/
-│
-├── features/             # Gherkin feature files
-├── data/                 # JSON test data
-├── config/               # XML files (e.g., testng.xml)
+
+
+├── features/# Gherkin feature files
+├── data/# JSON test data
+├── config/# XML files (e.g., testng.xml)
 ├── src/
 │   ├── main/java/
-│   │   ├── steps/        # Cucumber step definitions
-│   │   └── utils/        # Driver & support utilities
+│   │   ├── steps/# Cucumber step definitions
+│   │   └── utils/# Driver & support utilities
 │   └── test/java/
-│       └── runners/      # TestNG test runner
-├── pom.xml               # Maven project file (add dependencies)
-└── README.md             # Project overview
+│       └── runners/# TestNG test runner
+├── pom.xml/# Maven project file (add dependencies)
+└── README.md/# Project overview
